@@ -3,26 +3,26 @@ import { useConfig, DocsThemeConfig } from 'nextra-theme-docs';
 import { Logo, Head } from './components';
 
 const vercel = 'https://embedding-playbook.vercel.app';
-const description = "This playbook teaches you how to compose Tableau's varied product capabilities into applications that thrill customers, coworkers and friends!";
+const description = "Este exemplo é só para mostrar o potencial para compor os diversos recursos de produtos analíticos em aplicativos que entusiasmam clientes, colegas de trabalho e amigos!";
 
 const config: DocsThemeConfig = {
   primaryHue: 201,
   primarySaturation: 100,
   logo:
   <Logo
-    src="/img/tableau/tableau_logo.png"
+    src="/img/Superlogica/superlogicalogo.png"
     width='33'
-    text='Embed Tableau'
+    text='LG - Lugar de gente'
   />,
   footer: {
     text:
     <Logo
-      src="/img/tableau/logo_text.png"
+      src="/img/superlogica/superlogica.png"
       width='300'
     />
   },
   search: {
-    placeholder: "Search Documentation"
+    placeholder: "Procurar documentação"
   },
   toc: {
     backToTop: true
@@ -36,11 +36,11 @@ const config: DocsThemeConfig = {
     // changes title on home '/' route
     if (route !== '/') {
       return {
-        titleTemplate: '%s ✨ Embed Tableau'
+        titleTemplate: '%s ✨ Embed Superlogica Pulse - Recursos Humanos'
       };
     } else {
       return {
-        titleTemplate: 'Embed Tableau ✨ Home'
+        titleTemplate: 'Embed LG Pulse ✨ Home'
       };
     }
   },
@@ -56,10 +56,10 @@ const config: DocsThemeConfig = {
           imgHost={imgHost}
         />
         <link rel="icon" href={imgHost + "/svg/logo_color.svg?h=32&w=32"} type="image/svg+xml" />
-        <link rel="icon" href={imgHost + "/img/tableau/tableau.ico?h=32&w=32"} type="image/ico" />
-        <link rel="icon" href={imgHost + "/img/tableau/tableau_logo.png?h=32&w=32"} type="image/png" />
+        <link rel="icon" href={imgHost + "/img/superstore/lg.ico?h=32&w=32"} type="image/ico" />
+        <link rel="icon" href={imgHost + "/img/superstore/superstorelogo.png?h=32&w=32"} type="image/png" />
         <link rel="icon" href={imgHost + "/svg/dark.svg?h=32&w=32"} type="image/svg+xml" media="(prefers-color-scheme: dark)" />
-        <link rel="icon" href={imgHost + "/img/tableau/tableau_logo_dark.png?h=32&w=32"} type="image/png" media="(prefers-color-scheme: dark)" />
+        <link rel="icon" href={imgHost + "/img/superstore/superstorelogo.png?h=32&w=32"} type="image/png" media="(prefers-color-scheme: dark)" />
       </>
     );
   }

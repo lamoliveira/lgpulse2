@@ -4,7 +4,7 @@ import { parseInsights } from 'utils';
 export const handleInsights = async (metric) => {
   try {
     const insights = await getInsights(metric);
-    const data = responseHandler(insights); // output any errors returned from Tableau Pulse request
+    const data = responseHandler(insights); // output any errors returned from LG Pulse request
     if (data) {
       // parse Insights if no errors were found
       const parsedData = parseInsights(insights);
@@ -19,7 +19,7 @@ export const handleInsights = async (metric) => {
   }
 }
 
-// logs errors returned from Tableau Pulse
+// logs errors returned from LG Pulse
 const responseHandler = (response) => {
   if (!response) {
     throw new Error('REQUEST ERROR: cannot perform request');

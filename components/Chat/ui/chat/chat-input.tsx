@@ -66,7 +66,7 @@ export default function ChatInput(
         <Input
           autoFocus
           name="message"
-          placeholder="Type a message"
+          placeholder="Digite uma messagem"
           className="flex-1"
           value={props.input}
           onChange={props.handleInputChange}
@@ -76,7 +76,7 @@ export default function ChatInput(
           onFileError={props.onFileError}
         />
         <Button type="submit" disabled={props.isLoading}>
-          Send message
+          Enviar Mensagem
         </Button>
       </div>
     </form>

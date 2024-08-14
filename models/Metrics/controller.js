@@ -9,7 +9,7 @@ should eventually support Tanstack client-side or SWR server-side for state mana
 export const handleSubscriptions = async (apiKey, userId) => {
   try {
     const response = await getSubscriptions(apiKey, userId, 20);
-    responseHandler(response); // output any errors returned from Tableau Pulse request
+    responseHandler(response); // output any errors returned from LG Pulse request
     const parsedData = parseSubscriptions(response);
     return parsedData;
   } catch(err) {
@@ -23,7 +23,7 @@ export const handleSpecifications = async (apiKey, subscriptions) => {
     // create a comma separated string for URL parameters the next request
     const metric_ids = Object.values(subscriptions).map(obj => obj.metric_id).join(',');
     const response = await getSpecifications(apiKey, metric_ids);
-    responseHandler(response); // output any errors returned from Tableau Pulse request
+    responseHandler(response); // output any errors returned from LG Pulse request
     const parsedData = parseSpecifications(response);
     return parsedData;
   } catch(err) {
@@ -37,7 +37,7 @@ export const handleDefinitions = async (apiKey, specifications) => {
     // create a comma separated string for URL parameters the next request
     const definition_ids = Object.values(specifications).map(obj => obj.definition_id).join(',');
     const response = await getDefinitions(apiKey, definition_ids);
-    responseHandler(response); // output any errors returned from Tableau Pulse request
+    responseHandler(response); // output any errors returned from LG Pulse request
     const parsedData = parseDefinitions(response);
     return parsedData;
   } catch(err) {
@@ -46,7 +46,7 @@ export const handleDefinitions = async (apiKey, specifications) => {
   }
 }
 
-// logs errors returned from Tableau Pulse
+// logs errors returned from LG Pulse
 const responseHandler = (response) => {
   if (!response) {
     throw new Error('REQUEST ERROR: cannot perform request');

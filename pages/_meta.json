@@ -13,11 +13,11 @@
     "display": "hidden"
   },
   "start": {
-    "title": "Getting Started",
+    "title": "Iniciando",
     "type": "page"
   },
-  "architecture": {
-    "title": "Architecture",
+  "Arquitetura": {
+    "title": "Arquitetura",
     "type": "page"
   },
   "blog": {

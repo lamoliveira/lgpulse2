@@ -1,23 +1,23 @@
 {
   "index": {
-    "title": "Getting Started"
+    "title": "Iniciando"
   },
   "how": {
-    "title": "How Does It Work?"
+    "title": "Como Fundiona?"
   },
   "what": {
-    "title": "What Is Tableau?"
+    "title": "O que é o LG Pulse?"
   },
   "where": {
-    "title": "Where Does My Data Go?"
+    "title": "Para onde vão meus dados?"
   },
   "who": {
-    "title": "Who Is This For?"
+    "title": "Indicado para quem?"
   },
   "why": {
-    "title": "Why Tableau?"
+    "title": "Why LG Pulse?"
   },
   "next": {
-    "title": "Next Steps"
+    "title": "Próximos Passos"
   }
 }

@@ -2,7 +2,7 @@
 
 ## Writing Articles
 
-Contributing to new or existing articles is done by editing `.mdx` files located in the `pages/` folder. The folder structure of `pages/` dictates the overall layout of the application which can be further customized via `_meta.json` files placed inside each folder. This architecture is designed and maintained by [Nextra which documents](https://nextra.site/docs/guide/organize-files) all available options for organizing content.
+Contributing to new or existing articles is done by editing `.mdx` files located in the `pages/` folder. The folder structure of `pages/` dictates the overall layout of the application which can be further customized via `_meta.json` files placed inside each folder. This Arquitetura is designed and maintained by [Nextra which documents](https://nextra.site/docs/guide/organize-files) all available options for organizing content.
 
 All articles in this project use [Markdown](https://www.markdownguide.org/getting-started/) as the lightweight markup language that underpins the "[docs-as-code](https://www.writethedocs.org/guide/docs-as-code/)" model. Refer to this guide for help with [Markdown Syntax](https://www.markdownguide.org/) such as tables, quotes and more. These provide the basics elements that make up the Markdown language. Nextra also provides a [Markdown guide](https://nextra.site/docs/guide/markdown) and some reusable [built-in components](https://nextra.site/docs/guide/built-ins). Under [Advanced](https://nextra.site/docs/guide/advanced) you can learn about [Latex](https://katex.org/) and [Mermaid](https://mermaid.js.org/).
 

@@ -12,7 +12,7 @@ Customizing Embedded Tableau demos in this app requires working with 2 layers:
 
 2. **Demo Layer**: since [EmbedTableau.com](https://embedtableau.com) is intended for more uses than just a demo, the initial first layer is designed to support an infinite variety of UIs and use cases. These different interfaces can be defined as reusable UI components that can occupy an entire page or only inhabit portions of it.
 
-    To start, this application provides the `<Demo>` React component which presents Tableau Pulse Metrics and Tableau dashboard embeds. This component uses `<Themes>` to swap between different pages of the demo and defines what each page should look like.
+    To start, this application provides the `<Demo>` React component which presents LG Pulse Metrics and Tableau dashboard embeds. This component uses `<Themes>` to swap between different pages of the demo and defines what each page should look like.
 
 
 

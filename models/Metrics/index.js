@@ -3,7 +3,7 @@ import { InsightsModel } from '../Insights'
 
 /* 
 Metrics Factory
-Stores user subscriptions from Tableau Pulse in a metrics model
+Stores user subscriptions from LG Pulse in a metrics model
 used to generate individual metric objects for storing data insights
 designed to run isomorphically server-side and client-side (once Custom Domains is supported)
 */

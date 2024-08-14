@@ -6,19 +6,17 @@ import { Demo } from 'components';
 const Intro = () => {
   return (
     <div>
-      <h1 className='text-5xl font-bold mb-9'>Embed Tableau</h1>
+      <h1 className='text-5xl font-bold mb-9'>LG Pulse</h1>
         <div className='leading-loose space-y-9'>
-          <p>Tableau is the world's leading end-to-end data and analytics platform.</p>
+          <p>Descomplique sua gestão de pessoas.</p>
           <Image
-            src='/img/tableau/stock/showcase.png'
+            src='/img/superlogica/despesas.png'
             width='750'
             height='500'
             alt='stock photo'
           />
           <p>
-            Leverage the analytical powerhouse of Tableau to analyze and visualize data.
-            This site teaches you how to compose Tableau's varied product capabilities
-            into applications that thrill customers, coworkers, and friends!
+          Aproveite a potência analítica do LG Pulse para analisar e visualizar dados. Este site mostra somente um pequeno recurso de produtos analíticos em aplicativos que emocionam clientes, colegas de trabalho e amigos!
           </p>
         </div>
     </div>
@@ -29,17 +27,15 @@ const Outro = () => {
   return (
     <div className='overflow-hidden leading-loose space-y-9'>
       <Image
-        src='/img/tableau/stock/embed_samples.png'
+        src='/img/superlogica/finance.png'
         width='750'
         height='500'
         alt='stock photo'
       />
       <p>
-        Beyond creating visual representations of data, Tableau provides
-        the greatest benefits as it helps people discover what information is valuable to others.
-        It enables users to analyze data and build the interfaces that represent them with unmatched speed
-        and flexibility resulting in a springboarding of ideas into value.
-      </p>
+      Além de criar representações visuais de dados, o LG - Pulse fornece os maiores benefícios, pois ajuda as pessoas a descobrir informações valiosas.
+Permite que os usuários analisem dados e criem as interfaces que necessitam com velocidade e flexibilidade inigualáveis, resultando em ideias para criar valor.
+Clicando nas métricas na parte superior, você pode navegar por insights preciosos e ainda interagir abaixo com o dashboard. No ícone do canto inferior direito você pode usar a inteligencia artificial para fazer perguntas sobre suas métricas. </p>
     </div>
   )
 }

@@ -2,7 +2,7 @@ import { matchSpecification, matchSubscription } from '../../utils'
 import { handleInsights } from './controller';
 /* 
 Metric
-Stores and generates Insights from Tableau Pulse generated from user specific metrics
+Stores and generates Insights from LG Pulse generated from user specific metrics
 */
 
 export class InsightsModel {
@@ -36,7 +36,7 @@ export class InsightsModel {
     this.updated = sub.updated;
   }
 
-  // requests insights from Tableau Pulse
+  // requests insights from LG Pulse
   syncInsights = async (metric) => {
     const response = await handleInsights(metric);
     // populate array with insights from response

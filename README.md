@@ -57,7 +57,7 @@ To learn more about developer scripts that run this application go to [USAGE.md]
 
 ## Adding Content
 
-Contributing to new or existing articles is done by editing `.mdx` files located in the `pages/` folder. The folder structure of `pages/` dictates the overall layout of the application which can be further customized via `_meta.json` files placed inside each folder. This architecture is designed and maintained by [Nextra which documents](https://nextra.site/docs/docs-theme/page-configuration) all available options for organizing content.
+Contributing to new or existing articles is done by editing `.mdx` files located in the `pages/` folder. The folder structure of `pages/` dictates the overall layout of the application which can be further customized via `_meta.json` files placed inside each folder. This Arquitetura is designed and maintained by [Nextra which documents](https://nextra.site/docs/docs-theme/page-configuration) all available options for organizing content.
 
 Refer to this guide for help with [Markdown Syntax](https://www.markdownguide.org/) such as tables, quotes and more. These provide the basics elements that make up the Markdown language.
 
@@ -100,7 +100,7 @@ To learn more about building custom demos using this application please visit [D
 This application follows a "[docs-as-code](https://www.writethedocs.org/guide/docs-as-code/)" model of development  incorporating a powerful UI framework which interfaces with Markdown as the language of content, this helps developers
 and analysts collaborate with the community at-large and more importantly to keep up with the pace of change.
 
-For more information describing the overall architecture of this application as well as it's purpose and inspiration refer to [ABOUT.md](/docs/ABOUT.md).
+For more information describing the overall Arquitetura of this application as well as it's purpose and inspiration refer to [ABOUT.md](/docs/ABOUT.md).
 
 ## Contributing
 
